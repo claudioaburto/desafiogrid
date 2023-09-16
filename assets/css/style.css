@@ -67,15 +67,12 @@ footer {
   cursor: pointer;
 }
 .product-img {
-  width: 90%;
+  width: 70%;
   height: 70%;
-  
 }
 .product-img img {
-  width: 80%;
+  width: 90%;
   height: 90%;
-  justify-content: center;
-  align-items: center;
 }
 .product-body {
   width: 80%;
@@ -110,7 +107,6 @@ button:active {
   cursor: pointer;
   border: #25527b 2px solid;
 }
-
 .category-container {
   display: flex;
   flex-direction: column;
@@ -118,7 +114,19 @@ button:active {
   width: 50%;
   margin: 0 10%;
 }
-
-
+.title {
+  margin: 15px 0;
+}
+.categories {
+  padding: 5px 0;
+  color: #717677;
+}
+.categories:hover {
+  cursor: pointer;
+  font-weight: 400;
+}
+strong {
+  color: #000000;
+}
 
 
