@@ -129,4 +129,9 @@ strong {
   color: #000000;
 }
 
+@media (min-wildth: 576px){
+  menu{grid-area: main-grid;
+    height: 90vp;
+  }
+}
 
